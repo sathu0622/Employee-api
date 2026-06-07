@@ -1,0 +1,12 @@
+{"level":"info","message":"Server listening on port 5000","timestamp":"2026-06-07T12:48:35.171Z"}
+{"level":"info","message":"Server listening on port 5000","timestamp":"2026-06-07T12:50:42.568Z"}
+{"level":"error","message":"Cannot destructure property 'name' of 'req.body' as it is undefined.","stack":"TypeError: Cannot destructure property 'name' of 'req.body' as it is undefined.\n    at exports.createEmployee (D:\\Agent Project\\inventory-api\\src\\controllers\\employee.controller.js:20:13)\n    at Layer.handleRequest (D:\\Agent Project\\inventory-api\\src\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\Agent Project\\inventory-api\\src\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (D:\\Agent Project\\inventory-api\\src\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (D:\\Agent Project\\inventory-api\\src\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (D:\\Agent Project\\inventory-api\\src\\node_modules\\router\\lib\\layer.js:152:17)\n    at D:\\Agent Project\\inventory-api\\src\\node_modules\\router\\index.js:295:15\n    at processParams (D:\\Agent Project\\inventory-api\\src\\node_modules\\router\\index.js:582:12)\n    at next (D:\\Agent Project\\inventory-api\\src\\node_modules\\router\\index.js:291:5)\n    at Function.handle (D:\\Agent Project\\inventory-api\\src\\node_modules\\router\\index.js:186:3)","timestamp":"2026-06-07T12:55:55.296Z"}
+{"level":"info","message":"POST /api/employees 500 98 - 82.022 ms","timestamp":"2026-06-07T12:55:55.386Z"}
+{"level":"info","message":"Server listening on port 5000","timestamp":"2026-06-07T12:56:56.076Z"}
+{"level":"info","message":"POST /api/employees 400 69 - 2.689 ms","timestamp":"2026-06-07T12:57:09.113Z"}
+{"level":"info","message":"POST /api/employees 201 232 - 321.875 ms","timestamp":"2026-06-07T12:58:46.184Z"}
+{"level":"info","message":"POST /api/employees/login 200 487 - 267.496 ms","timestamp":"2026-06-07T12:59:36.574Z"}
+{"level":"info","message":"Department created: Human Resources","timestamp":"2026-06-07T12:59:56.370Z"}
+{"level":"info","message":"POST /api/departments 201 223 - 164.310 ms","timestamp":"2026-06-07T12:59:56.372Z"}
+{"level":"info","message":"Attendance created for employee 648abc123def4567890abcd1","timestamp":"2026-06-07T13:00:11.523Z"}
+{"level":"info","message":"POST /api/attendance 201 301 - 157.204 ms","timestamp":"2026-06-07T13:00:11.534Z"}
